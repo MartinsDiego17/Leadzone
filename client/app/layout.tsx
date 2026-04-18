@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Poppins, Inter, Questrial } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
-import './globals.css'
+import "./globals.css"
 import "../components/components.css"
 
 const poppins = Poppins({

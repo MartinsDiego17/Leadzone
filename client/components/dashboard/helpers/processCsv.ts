@@ -1,6 +1,6 @@
 import Papa from 'papaparse'
 import { PreviewData } from '../types/PreviewData'
-import { Lead } from '@/client/lib/types'
+import { Lead } from "../../../lib/types";
 
 type ProcessCsvResult = {
     data: PreviewData[] | null
