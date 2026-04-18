@@ -1,0 +1,14 @@
+.card-pain-point {
+    &:hover {
+        box-shadow: 0px 20px 20px var(--primary-foreground);
+    }
+}
+
+.cta-section {
+  background-image:
+    linear-gradient(to right, #121212 1px, transparent 1px),
+    linear-gradient(to bottom, #121212 1px, transparent 1px);
+  background-size: 32px 32px;
+  -webkit-mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, #000 30%, transparent 70%);
+  mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, #000 30%, transparent 70%);
+}
