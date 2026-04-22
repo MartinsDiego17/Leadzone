@@ -11,8 +11,8 @@ import { useAuthStore } from "../../store/useAuthStore"
 const navItems = [
   { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/dashboard/leads", label: "Leads", icon: Users },
-  { href: "/dashboard/importar", label: "Importar", icon: Upload },
-  { href: "/dashboard/estadisticas", label: "Estadisticas", icon: BarChart3 },
+  { href: "/dashboard/import", label: "Importar", icon: Upload },
+  { href: "/dashboard/statistics", label: "Estadisticas", icon: BarChart3 },
 ]
 
 export function MobileHeader() {
