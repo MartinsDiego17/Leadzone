@@ -6,15 +6,16 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.useGlobalInterceptors(new TransformInterceptor());
   app.setGlobalPrefix('api');
+
   app.enableCors({
     origin: (origin, callback) => {
       const allowed = [
         'http://localhost:3000',
-        'https://zenda-production.com',
       ];
 
+      const isVercel = origin?.endsWith('.vercel.app');
 
-      if (!origin || allowed.includes(origin)) {
+      if (!origin || allowed.includes(origin) || isVercel) {
         callback(null, true);
       } else {
         callback(new Error('Not allowed by CORS'));

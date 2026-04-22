@@ -10,7 +10,6 @@ export default function AuthCallback() {
     const router = useRouter()
     const currentSession = useAuthStore(state => state.session);
 
-
     useEffect(() => {
 
         if (currentSession) {
