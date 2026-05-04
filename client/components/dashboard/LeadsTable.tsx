@@ -189,7 +189,7 @@ export function LeadsTable() {
                   <tr className="border-b border-border">
                     <th className="text-left p-4 text-sm font-medium text-muted-foreground">Nombre</th>
                     <th className="text-left p-4 text-sm font-medium text-muted-foreground hidden sm:table-cell">Teléfono</th>
-                    <th className="text-left p-4 text-sm font-medium text-muted-foreground hidden md:table-cell">Email</th>
+                    <th className="text-left p-4 text-sm font-medium text-muted-foreground hidden md:table-cell">Website</th>
                     <th className="text-left p-4 text-sm font-medium text-muted-foreground">Estado</th>
                     <th className="text-left p-4 text-sm font-medium text-muted-foreground hidden lg:table-cell">Nicho / Zona</th>
                     <th className="text-right p-4 text-sm font-medium text-muted-foreground">Acciones</th>
@@ -239,7 +239,24 @@ export function LeadsTable() {
                         )}
                       </td>
 
-                      <td className="p-4 text-muted-foreground hidden md:table-cell">{lead.email || "-"}</td>
+                      <td className="p-4 hidden sm:table-cell">
+                        {lead.website ? (
+                          <span className="inline-flex items-center gap-2 text-muted-foreground">
+                            Sitio web
+                            <a
+                              href={lead.website}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="text-primary hover:text-primary/80 transition-colors"
+                              title="Contactar por WhatsApp"
+                            >
+                              <ExternalLink className="w-3.5 h-3.5" />
+                            </a>
+                          </span>
+                        ) : (
+                          <span className="text-muted-foreground">-</span>
+                        )}
+                      </td>
                       <td className="p-4">
                         <DropdownMenu>
                           <DropdownMenuTrigger asChild>

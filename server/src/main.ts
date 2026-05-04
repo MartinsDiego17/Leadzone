@@ -11,7 +11,7 @@ async function bootstrap() {
     origin: (origin, callback) => {
       const allowed = [
         'http://localhost:3000',
-      ];
+      ];  
 
       const isVercel = origin?.endsWith('.vercel.app');
 
