@@ -23,7 +23,8 @@ Centraliza tus leads, registrá el estado de cada conversación, tomá notas por
 
 | Formulario de nuevos leads | Dashboard de métricas |
 |---|---|
-| <img width="1900" height="948" alt="image" src="https://github.com/user-attachments/assets/d6a8df9b-13a4-47f0-84e6-a8e10dacbad7" /> |
+| <img width="1920" height="953" alt="image" src="https://github.com/user-attachments/assets/33d5b422-ef70-467c-93b9-f96200595c05" /> |
+| <img width="1900" height="947" alt="image" src="https://github.com/user-attachments/assets/a12a39d1-8059-46e7-ab44-ecf55ea18a86" /> |
 
 ---
 
