@@ -19,7 +19,6 @@ Centraliza tus leads, registrá el estado de cada conversación, tomá notas por
 
 ## Capturas de pantalla
 
- Vista Kanban 
  <img width="1920" height="946" alt="image" src="https://github.com/user-attachments/assets/1ef5ca76-a82f-4979-93d6-5f90e48fc890" /> 
 
 | Formulario de nuevo lead | Dashboard de métricas |
