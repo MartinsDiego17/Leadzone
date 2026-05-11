@@ -21,9 +21,9 @@ Centraliza tus leads, registrá el estado de cada conversación, tomá notas por
 
  <img width="1920" height="946" alt="image" src="https://github.com/user-attachments/assets/1ef5ca76-a82f-4979-93d6-5f90e48fc890" /> 
 
-| Formulario de nuevo lead | Dashboard de métricas |
+| Formulario de nuevos leads | Dashboard de métricas |
 |---|---|
-| ![Nuevo Lead](https://placehold.co/620x400/0f172a/38bdf8?text=Formulario+Nuevo+Lead) | ![Métricas](https://placehold.co/620x400/0f172a/38bdf8?text=Dashboard+Métricas) |
+| <img width="1920" height="950" alt="image" src="https://github.com/user-attachments/assets/7ea4bd23-2558-49a8-b6ac-cb4715bd6b81" />|
 
 ---
 
