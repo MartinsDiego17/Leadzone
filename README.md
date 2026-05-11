@@ -57,15 +57,16 @@ Centraliza tus leads, registrá el estado de cada conversación, tomá notas por
 
 ```
 leadzone/
-├── frontend/          # Aplicación Next.js (cliente)
+├── client/          # Aplicación Next.js (cliente)
 │   ├── app/           # App Router de Next.js
 │   ├── components/    # Componentes reutilizables
 │   ├── lib/           # Utilidades y helpers
 │   └── ...
-├── backend/           # API REST con NestJS
+├── server/           # API REST con NestJS
 │   ├── src/
-│   │   ├── leads/     # Módulo de leads
-│   │   ├── auth/      # Módulo de autenticación
+│   │   ├── modules/     # Módulos
+|   │   │   ├── leads
+|   │   │   ├── supabase
 │   │   └── ...
 │   └── ...
 └── README.md
