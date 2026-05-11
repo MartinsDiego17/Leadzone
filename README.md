@@ -5,7 +5,7 @@
 
 ---
 
-![Leadzone — Dashboard principal](https://placehold.co/1280x720/0f172a/38bdf8?text=Dashboard+–+Leadzone)
+<img width="1919" height="951" alt="image" src="https://github.com/user-attachments/assets/f50ed63d-3416-4af3-acd0-7beaf03949a2" />
 
 ---
 
