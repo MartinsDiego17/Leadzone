@@ -242,5 +242,5 @@ Este proyecto está bajo la licencia **MIT**. Consultá el archivo [LICENSE](./L
 ---
 
 <p align="center">
-  Desarrollado con foco y café ☕ — Leadzone © 2025
+  Desarrollado con foco y café  — Leadzone © 2026
 </p>
