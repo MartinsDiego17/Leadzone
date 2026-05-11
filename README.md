@@ -36,7 +36,7 @@ Centraliza tus leads, registrá el estado de cada conversación, tomá notas por
 | Capa | Tecnología |
 |---|---|
 | Frontend | [Next.js](https://nextjs.org/) + [React](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/) |
-| Estilos | [Tailwind CSS](https://tailwindcss.com/) |
+| Estilos | [Tailwind CSS](https://tailwindcss.com/) + [Shadcn](https://ui.shadcn.com/) |
 | Backend | [NestJS](https://nestjs.com/) + [TypeScript](https://www.typescriptlang.org/) |
 | Base de datos & Auth | [Supabase](https://supabase.com/) |
 
